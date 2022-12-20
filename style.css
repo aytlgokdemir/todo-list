@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #FFEFD6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: #0E5E6F;
+    width: 400px;
+    height: 450px;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+h2{
+    margin-top: 25px;
+    color: #f19c63;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.inputTextContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#inputText{
+    margin-top: 35px;
+    width: 250px;
+    height: 28px;
+    border-radius: 8px;
+    font-size: 14px;
+    
+}
+
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+}
+
+#addToDo{
+    width: 60px;
+    height: 28px;
+    margin: 5px;
+    border-radius: 4px;
+    border: none;
+    background-color: #f19c63;
+    cursor: pointer;
+}
+
+#clearToDo{
+    width: 60px;
+    height: 28px;
+    margin: 5px;
+    border-radius: 4px;
+    border: none;
+    background-color: #f19c63;
+    cursor: pointer;
+}
+
+.toDoContainer{
+    color: #f19c63;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    color: #f19c63;
+    text-transform: capitalize;
+}
+
+.toDo{
+    margin-top: 25px;
+    text-align: center;
+}
